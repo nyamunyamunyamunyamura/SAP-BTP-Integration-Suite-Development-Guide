@@ -38,3 +38,21 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 - ステップ順に**通し番号（例: 01, 02, 03）**を振ることで、**処理の流れを可視化**し、**可読性を向上**させる。
 - **技術ステップ**（例: Content Modifier, Script など）は、**処理の意図を簡潔に表現**する名前にする。
 
+
+# 💻 Groovy Scriptファイル名命名規則
+
+## 推奨ルール
+
+### 命名パターン
+
+### 例
+
+- `GS_TransformEmployeeData.groovy`  
+- `GS_ValidatePayload.groovy`  
+- `GS_GenerateUUID.groovy`  
+
+## 命名方針
+
+- ファイル名の先頭に必ず **`GS_` プレフィックス**を付けて、**Script Type を明示**する。  
+- **ファイル名のみで処理内容が分かるように**命名すること。  
+- **複数の用途が混在しているスクリプト**は、**できるだけ小分けに**してシンプルに保つ
