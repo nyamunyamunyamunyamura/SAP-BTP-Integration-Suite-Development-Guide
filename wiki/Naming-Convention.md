@@ -19,6 +19,22 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 - **テナント内で一意**かつ、**可読性のある構造**にすること。
 
 
-## Integration Flow名
-- パターン: `<SOURCE>_TO_<TARGET>_<PURPOSE>`
-- 例: `SF_TO_S4HANA_EMPLOYEE_CREATE`
+# 🧩 ステップ名命名規則（Integration Flow内のステップ）
+
+## 推奨ルール
+
+### 基本パターン
+
+
+### 例
+
+- `01_Receive_From_SF`  
+- `02_Transform_Employee_JSON_To_XML`  
+- `03_Call_S4HANA_API`  
+- `04_Handle_Response`  
+
+## 命名方針
+
+- ステップ順に**通し番号（例: 01, 02, 03）**を振ることで、**処理の流れを可視化**し、**可読性を向上**させる。
+- **技術ステップ**（例: Content Modifier, Script など）は、**処理の意図を簡潔に表現**する名前にする。
+
