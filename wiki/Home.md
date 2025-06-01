@@ -1,10 +1,7 @@
-# SAP Cloud Integration 開発ガイドライン
+# SAP Cloud Integration Wiki
 
-ようこそ！このWikiでは、SAP BTP Integration SuiteのCloud Integrationでの開発ルールを紹介します。
-
-## ガイド内容一覧
-
-- [命名規則ガイドライン](Naming-Convention.md)
-- [Groovyスクリプト作成ガイド](Groovy-Scripting-Guidelines.md)
-- [CodeNarcによるコードLintルール](Code-Linting-With-CodeNarc.md)
-- [CI/CD環境構築ガイド](CI-CD-Setup.md)
+## 🚀 トピック一覧
+- [命名規則](Naming-Conventions.md)
+- [Groovyスクリプト作成ガイド](Groovy-Guidelines.md)
+- [CI/CD・CodeNarc](CI-CD-CodeNarc.md)
+- [新メンバー向け導入手順](Developer-Onboarding.md)
