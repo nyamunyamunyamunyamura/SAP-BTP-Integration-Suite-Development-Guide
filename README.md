@@ -18,7 +18,7 @@
 - [開発環境のセットアップ](./setup.md)
 - [各リソースの命名規則](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/main/wiki/Naming-Convention.md)
 - [iFlow 開発ルール（未作成）](./development-rules.md)
-- - [Groovyスクリプト作成ガイド（未作成）](Groovy-Guidelines.md)
+- [Groovyスクリプト作成ガイド（未作成）](Groovy-Guidelines.md)
 - [GitHub リポジトリ運用ガイド（作成中）](./repository-guidelines.md)
 - [よくある課題とFAQ（作成中）](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/main/wiki/Naming-Convention.md)
 
