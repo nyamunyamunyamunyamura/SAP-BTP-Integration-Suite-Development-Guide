@@ -35,6 +35,9 @@
 - プロジェクトチーム内の共通理解の形成
 - アーキテクト（PL・PM）によるコードレビューの指針
 
+## メモ
+- [Integration Suite Defining Best Practice](https://learning.sap.com/learning-journeys/getting-started-with-sap-integration-solution-advisory-methodology/defining-integration-best-practices_b3bc1a05-9dee-400d-9937-51acc95fee76)
+
 ---
 
 本ガイドは随時更新されます。内容に関する提案・質問は[Issue](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/issues)からお願いします。（GSL佐田）
