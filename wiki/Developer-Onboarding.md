@@ -12,8 +12,8 @@
 
 ## 🔍 最初のタスク
 - サンプルiFlowのクローン
-- コード修正とPR作成
-- CIによるLintチェックの確認
+- コード修正とPR作成（考え中）
+- CIによるLintチェックの確認（作成中）
 
 ## 📚 学習リンク
 - [SAP Help Portal – Cloud Integration](https://help.sap.com/viewer/product/CLOUD_INTEGRATION)
