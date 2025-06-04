@@ -43,7 +43,7 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 - `GS_TransformEmployeeData.groovy`  
 - `GS_ValidatePayload.groovy`  
 - `GS_GenerateUUID.groovy`
-- - resouce/NamingRule_GS.png
+-  ![name]([resouce/NamingRule_GS.png](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/f440a93327b26e4aa0d31a28ca46c88ce0805ed5/resouce/NamingRule_GS.png))
 
 ## 命名方針
 
