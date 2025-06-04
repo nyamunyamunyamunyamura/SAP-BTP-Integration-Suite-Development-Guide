@@ -5,8 +5,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 ## 推奨ルール
 
-### 命名パターン
-
 ### 例
 
 - `com.company.sap.s4hana.masterdata`  
@@ -22,9 +20,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 # 🧩 ステップ名命名規則（Integration Flow内のステップ）
 
 ## 推奨ルール
-
-### 基本パターン
-
 
 ### 例
 
@@ -43,13 +38,12 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 ## 推奨ルール
 
-### 命名パターン
-
 ### 例
 
 - `GS_TransformEmployeeData.groovy`  
 - `GS_ValidatePayload.groovy`  
-- `GS_GenerateUUID.groovy`  
+- `GS_GenerateUUID.groovy`
+- - resouce/NamingRule_GS.png
 
 ## 命名方針
 
