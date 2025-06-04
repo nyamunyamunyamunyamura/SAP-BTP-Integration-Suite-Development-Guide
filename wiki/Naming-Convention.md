@@ -27,7 +27,7 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 - `02_Transform_Employee_JSON_To_XML`  
 - `03_Call_S4HANA_API`  
 - `04_Handle_Response`
-- !(num)[https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/f21c0bc4e2d4f21e25b52da7f296fb60f9fa791a/resouce/Numb_Step.png]
+- !(resouce/Numb_Step.png)[https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/f21c0bc4e2d4f21e25b52da7f296fb60f9fa791a/resouce/Numb_Step.png]
 
 ## 命名方針
 
