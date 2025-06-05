@@ -31,6 +31,15 @@
   </record>
 </root>
 
----
+```
 
 ## 入力例
+
+```xml
+<root>
+  <record>
+    <Place>"東京"</Place>
+    <DeliveryTime>"2025-06-30"</DeliveryTime>
+  </record>
+</root>
+```
