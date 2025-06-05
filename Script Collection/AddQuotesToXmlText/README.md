@@ -31,8 +31,9 @@
   </record>
 </root>
 
-## 出力例
+---
 
+## 📥 入力例
 ```xml
 <root>
   <record>
