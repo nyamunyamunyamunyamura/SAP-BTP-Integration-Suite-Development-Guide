@@ -1,4 +1,4 @@
-# SAP CPI Groovyスクリプト - XMLフィールド値のダブルクォート付与
+# SAP CPI Groovyスクリプト - XMLフィールド値のダブルクォート化
 
 このGroovyスクリプトは、SAP Cloud Integration（SAP CPI）において、受信したXMLデータの各要素の値を**ダブルクォーテーション（"`"）で囲って出力する**処理を行います。
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 📥 入力・出力例
+## 📥 入力例
 
 ```xml
 <root>
@@ -30,15 +30,3 @@
     <DeliveryTime>2025-06-30</DeliveryTime>
   </record>
 </root>
----
-
-## 出力
-```xml
-<root>
-  <record>
-    <Place>"東京"</Place>
-    <DeliveryTime>"2025-06-30"</DeliveryTime>
-  </record>
-</root>
-
----
