@@ -1,5 +1,5 @@
 /**
- * スクリプト名: QuoteXmlFields.groovy
+ * スクリプト名: AddQuotesToXmlText.groovy
  * 説明: 入力XMLの各フィールド値をダブルクォーテーションで囲み、整形済みXMLとして出力します。
  * 入力: <root><record>...</record></root> 形式のXML文字列
  * 出力: 各フィールドの値が "..." で囲まれたXML文字列
