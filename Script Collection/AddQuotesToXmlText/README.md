@@ -34,6 +34,7 @@
 ---
 
 ## 📥 入力例
+
 ```xml
 <root>
   <record>
@@ -41,3 +42,5 @@
     <DeliveryTime>"2025-06-30"</DeliveryTime>
   </record>
 </root>
+
+---
