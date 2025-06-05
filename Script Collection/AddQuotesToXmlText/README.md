@@ -30,6 +30,7 @@
     <DeliveryTime>2025-06-30</DeliveryTime>
   </record>
 </root>
+
 ---
 
 ## 入力例
