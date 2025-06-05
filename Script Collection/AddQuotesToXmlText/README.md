@@ -31,9 +31,6 @@
   </record>
 </root>
 
----
-
-```xml
 <root>
   <record>
     <Place>"東京"</Place>
