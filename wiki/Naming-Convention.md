@@ -60,10 +60,10 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 /**
  * スクリプト名: ${スクリプト名}.groovy
  * 説明: ${スクリプトの端的な説明}
- * 入力: <root><record>...</record></root> 形式のXML文字列
- * 出力: ${出力されるデータの説明}
- * 作成者: dev.team@jp.com
- * 最終更新日: YYYY-MM-DD
+ * 入力: ${想定データの構造について記載}
+ * 出力: ${出力されるデータについて記載}
+ * 作成者: ${作成者の名前}
+ * 最終更新日: ${YYYY-MM-DD}
  */
 ```
 - 例[AddQuote.groovy](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/1e67fd4a5dacdfdcf424e5f85d590e5438f31dc2/Script%20Collection/AddQuotesToXmlText/AddQuotesToXmlText.groovy)
