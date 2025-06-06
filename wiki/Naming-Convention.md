@@ -51,3 +51,20 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 - ファイル名の先頭に必ず **`GS_` プレフィックス**を付けて、**Script Type を明示**する。  
 - **ファイル名のみで処理内容が分かるように**命名すること。  
 - **複数の用途が混在しているスクリプト**は、**できるだけ小分けに**してシンプルに保つ
+
+# Groovy Scriptコメント規則
+
+## 推奨ルール
+以下のフォーマットでスクリプト先頭に情報を記載し、スクリプトを作成する。
+```groovy:CommentRule.groovy
+/**
+ * スクリプト名: ${スクリプト名}.groovy
+ * 説明: ${スクリプトの端的な説明}
+ * 入力: <root><record>...</record></root> 形式のXML文字列
+ * 出力: ${出力されるデータの説明}
+ * 作成者: dev.team@jp.com
+ * 最終更新日: YYYY-MM-DD
+ */
+```
+- 例[AddQuote.groovy](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/1e67fd4a5dacdfdcf424e5f85d590e5438f31dc2/Script%20Collection/AddQuotesToXmlText/AddQuotesToXmlText.groovy)
+- 
