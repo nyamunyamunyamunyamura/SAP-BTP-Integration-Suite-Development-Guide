@@ -56,7 +56,7 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 # Groovy Scriptコメント規則
 
 ## 推奨ルール
-以下のフォーマットでスクリプト先頭に情報を記載し、スクリプトを作成する。
+以下のフォーマットでスクリプト先頭に以下のような情報を記載し、他の人がプログラムを見た時分かりやすくする。
 ```groovy:CommentRule.groovy
 /**
  * スクリプト名: ${スクリプト名}.groovy
