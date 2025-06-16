@@ -26,7 +26,7 @@
 
 - SAP BTP Integration Suite（Cloud Integration）
 - Integration Flow（iFlow）開発
-- GitHub を用いたコード管理
+- GitHub を用いたコード管理（考え中）
 - 社内開発ルールへの準拠
 
 ## 🛠 想定利用者
