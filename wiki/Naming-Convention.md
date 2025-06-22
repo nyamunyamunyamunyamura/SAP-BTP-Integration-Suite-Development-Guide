@@ -49,13 +49,15 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 ## 命名方針
 
 - ファイル名の先頭に必ず **`GS_` プレフィックス**を付けて、**Script Type を明示**する。  
-- **ファイル名のみで処理内容が分かるように**命名すること。  
+- スクリプトの役割を明確に表す名前にします。
+- **パスカルケース (CamelCase)** を使用し、スペースや特殊文字は使用しません。
+  - 例: SetHeaderAndProperty.groovy, JsonPayloadParser.groovy, ApiErrorResponseHandler.groovy
 - **複数の用途が混在しているスクリプト**は、**できるだけ小分けに**してシンプルに保つ
 - IF名_番号_処理名_バージョン　などでも可
 
-# Groovy Scriptコメント規則
-
-## 推奨ルール
+# Groovy Script記述規則
+## コメント
+### 推奨ルール
 以下のフォーマットでスクリプト先頭に以下のような情報を記載し、他の人がプログラムを見た時分かりやすくする。
 ```groovy:CommentRule.groovy
 /**
@@ -69,3 +71,20 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 ```
 ### 例
 - [AddQuote.groovy](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/1e67fd4a5dacdfdcf424e5f85d590e5438f31dc2/Script%20Collection/AddQuotesToXmlText/AddQuotesToXmlText.groovy)
+
+## 変数名
+- キャメルケース (camelCase) を使用します。
+- 変数の目的や内容がわかる名前にします。
+  - 例: messageBody, extractedId, httpStatusCode, retryCount
+## 関数名 (メソッド名):
+- キャメルケース (camelCase) を使用します。
+- 関数が実行するアクションを表す動詞から始めます。
+    - 例: processData, extractFieldValue, handleApiError
+## 定数名
+- 全て大文字 (ALL_CAPS) を使用し、単語間はアンダースコア (_) で繋ぎます。
+   - 例: MAX_RETRIES, DEFAULT_TIMEOUT
+## iFlowのプロパティ名:
+- スクリプト内でアクセスするiFlowのプロパティ名も、一貫性を持たせることが望ましいです。
+-  キャメルケース (camelCase) または パスカルケース (CamelCase) を推奨します。
+-  リソースの種別を明確にするために、`PR_`/`HD_`プレフィックスを付ける事も有効。
+  - 例  : documentType, customerID, processStatus
