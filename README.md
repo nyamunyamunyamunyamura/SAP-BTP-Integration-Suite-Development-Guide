@@ -15,7 +15,7 @@
 
 ## 📦 ガイドの構成
 
-- [開発環境のセットアップ](./setup.md)
+- [開発環境のセットアップ](https://developers.sap.com/tutorials/btp-integration-suite-nonsapconnectivity-settingup-suite..html)
 - [各リソースの命名規則](https://github.com/nyamunyamunyamunyamura/SAP-BTP-Integration-Suite-Development-Guide/blob/main/wiki/Naming-Convention.md)
 - [iFlow 開発ルール（未作成）](./development-rules.md)
 - [Groovyスクリプト作成ガイド（未作成）](Groovy-Guidelines.md)
