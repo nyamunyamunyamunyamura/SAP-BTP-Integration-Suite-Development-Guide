@@ -3,8 +3,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 # 📦 パッケージ命名規則（Integration Package）
 
-## 推奨ルール
-
 ### 例
 
 - `com.company.sap.s4hana.masterdata`  
@@ -18,9 +16,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 
 # 🧩 ステップ名命名規則（Integration Flow内のステップ）
-
-## 推奨ルール
-
 ### 例
 
 - `01_Receive_From_SF`  
@@ -36,9 +31,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 
 # 💻 Groovy Scriptファイル名命名規則
-
-## 推奨ルール
-
 ### 例
 
 - `GS_TransformEmployeeData.groovy`  
@@ -57,7 +49,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
 
 # Groovy Script記述規則
 ## コメント
-### 推奨ルール
 以下のフォーマットでスクリプト先頭に以下のような情報を記載し、他の人がプログラムを見た時分かりやすくする。
 ```groovy:CommentRule.groovy
 /**
