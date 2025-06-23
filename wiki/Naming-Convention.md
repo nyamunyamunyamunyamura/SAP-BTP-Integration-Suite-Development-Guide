@@ -76,6 +76,6 @@ SAP BTP Integration Suite（旧SAP CPI）のCloud Integrationでの開発ルー�
    - 例: `MAX_RETRIES`, `DEFAULT_TIMEOUT`
 ## iFlowのプロパティ名:
 - スクリプト内でアクセスするiFlowのプロパティ名も、一貫性を持たせることが望ましいです。
--  キャメルケース (camelCase) または パスカルケース (CamelCase) を推奨します。
+-  キャメルケース (camelCase) または パスカルケース (PascalCase) を推奨します。
 -  リソースの種別を明確にするために、`PR_`/`HD_`プレフィックスを付ける事も有効。
   - 例  : `documentType`, `customerID`, `processStatus`
