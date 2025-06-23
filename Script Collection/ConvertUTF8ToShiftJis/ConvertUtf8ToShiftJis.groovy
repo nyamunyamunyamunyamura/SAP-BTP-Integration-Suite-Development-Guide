@@ -3,7 +3,7 @@
  * 説明: メッセージの文字コードがShift_JISでない場合にUTF-8からShift_JISへ変換し、Bodyおよびプロパティを更新する。
  * 入力: UTF-8エンコードされたバイナリデータ、およびCamelCharsetNameプロパティ（省略可）
  * 出力: Shift_JISに変換されたバイナリデータ、プロパティにCamelCharsetName=Shift_JISを設定
- * 作成者: 社内開発者
+ * 作成者: GSL佐田
  * 最終更新日: 2025-06-23
  */
 
